@@ -23,7 +23,7 @@
             </div>
 
             <form action="C:\laragon\www\theresort-repo\reservations.html">
-                <input type="submit" class="btn mt-auto" value="Send">
+                <button class="btn mt-3" type="submit"> Subscribe </button>
             </form>
 
         </div>
@@ -50,7 +50,7 @@
             </div>
 
             <form action="C:\laragon\www\theresort-repo\reservations.html">
-                <input type="submit" class="btn mt-auto" value="Send">
+                <button class="btn mt-3" type="submit"> Subscribe </button>
             </form>
 
         </div>
@@ -77,7 +77,7 @@
             </div>
 
             <form action="C:\laragon\www\theresort-repo\reservations.html">
-                <input type="submit" class="btn mt-auto" value="Send">
+                <button class="btn mt-3" type="submit"> Subscribe </button>
             </form>
 
         </div>
@@ -104,7 +104,7 @@
             </div>
 
             <form action="C:\laragon\www\theresort-repo\reservations.html">
-                <input type="submit" class="btn mt-auto" value="Send">
+                <button class="btn mt-3" type="submit"> Subscribe </button>
             </form>
 
         </div>

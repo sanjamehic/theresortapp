@@ -6,10 +6,9 @@
     --black:#000000;
 }
 
-* {
-    margin: 0;
-    padding: 0;
+  *, *::before, *::after {
     box-sizing: border-box;
+
   }
 
 body {
@@ -39,22 +38,47 @@ body {
     margin: 0 auto;
   }
 
-input.btn {
+button.btn {
+
+    color: var(--platinum);
     padding: 0 20px;
     height: 40px;
     font-size: 1em;
     font-weight: 500;
     text-transform: uppercase;
-    background-color: var(--orange-web);
-    border-radius: 2px;
     margin-top: 20px;
     margin-bottom: 5%;
+    outline: none;
     cursor: pointer;
+    position: relative;
+    border-radius: 2px;
+    background-color: var(--oxford-blue);
+    --pop-button-border-size: 2px;
+    --button-background-color: var(--oxford-blue);
   }
 
-input.btn:hover {
-    background-color: #d2932d;
-  }
+
+
+.btn-border-pop::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: var(--pop-button-border-size) solid var(--background-color);
+    z-index: -1;
+    transition: top, left, right, bottom, 100ms ease-in-out;
+}
+
+.btn-border-pop:hover::before,
+.btn-border-pop:focus::before {
+    top: calc(--border-size) * -2;
+    left: calc(--border-size) * -2;
+    right: calc(--border-size) * -2;
+    bottom: calc(--border-size) * -2;
+}
+
 
 .grid {
     display: flex;
@@ -130,10 +154,7 @@ a {
     font-weight: 600;
 }
 
-a:hover {
-    color: var(--orange-web) ;
-    font-weight: 800;
-}
+
 
 p {
     font-weight:100;
@@ -262,9 +283,7 @@ p {
     background-color: var(--orange-web);
   }
 
-#newsletter-section input[type='submit']:hover {
-    background-color: var(--orange-web);
-  }
+
 
 @media (max-width: 650px) {
     #newsletter {

@@ -19,7 +19,7 @@
             </div>
             <div class="service-button">
                 <form  action="/reservations">
-                    <input type="submit" class="btn " value="More info">
+                    <button class="btn mt-3" type="submit"> More info </button>
                 </form>
             </div>
         </div>
@@ -32,7 +32,7 @@
             </div>
             <div class="service-button">
                 <form  action="/reservations">
-                    <input type="submit" class="btn " value="More info">
+                    <button class="btn mt-3" type="submit"> More info </button>
                 </form>
             </div>
         </div>
@@ -45,7 +45,7 @@
             </div>
             <div class="service-button">
                 <form action="/reservations">
-                    <input type="submit" class="btn" value="More info">
+                    <button class="btn mt-3" type="submit"> More info </button>
                 </form>
             </div>
         </div>
@@ -58,7 +58,7 @@
             </div>
             <div class="service-button">
                 <form action="/reservations">
-                    <input type="submit" class="btn" value="More info">
+                    <button class="btn mt-3" type="submit"> More info </button>
                 </form>
             </div>
         </div>
@@ -71,7 +71,7 @@
             </div>
             <div class="service-button">
                 <form action="/reservations">
-                    <input type="submit" class="btn" value="More info">
+                    <button class="btn mt-3" type="submit"> More info </button>
                 </form>
             </div>
         </div>
