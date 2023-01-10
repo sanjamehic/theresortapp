@@ -59,7 +59,7 @@ button.btn {
 
 
 
-.btn-border-pop::before {
+button.btn.btn-border-pop::before {
     content: '';
     position: absolute;
     top: 0;
